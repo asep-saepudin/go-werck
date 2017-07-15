@@ -62,7 +62,7 @@ deploy:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: /pipeline/source/main
+        cmd: /pipeline/source/go-werck
         port: "8080"
         tag: latest
         repository: asep-saepudin/go-werck

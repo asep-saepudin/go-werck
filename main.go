@@ -10,7 +10,7 @@ func main() {
 		w.Write([]byte(`
       <html>
         <head>
-          <title>Hello, World!</title>
+          <title>Welcome</title>
         </head>
         <body>
           <h1>Hello, World!</h1>
