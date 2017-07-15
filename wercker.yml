@@ -10,7 +10,7 @@ dev:
         code: env
 
     - script:
-        name: go get
+        name: go get dev
         code: |
           cd $WERCKER_SOURCE_DIR
           go version
@@ -62,7 +62,7 @@ deploy:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: /pipeline/source/hello
+        cmd: /pipeline/source/main
         port: "8080"
         tag: latest
         repository: asep-saepudin/go-werck
