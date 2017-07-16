@@ -66,4 +66,3 @@ deploy:
         port: "8080"
         tag: latest
         repository: asep/go-werck
-        registry: https://registry.hub.docker.com/v2
