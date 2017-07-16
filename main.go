@@ -1,3 +1,4 @@
+// Comment
 package main
 
 import (
@@ -8,15 +9,15 @@ import (
 func main() {
 	handler := func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(`
-      <html>
-        <head>
-          <title>Welcome!</title>
-        </head>
-        <body>
-          <h1>Hello, World!</h1>
-        </body>
-      </html>
-    `))
+			<html>
+				<head>
+					<title>Welcome!</title>
+				</head>
+				<body>
+					<h1>Hello, World!</h1>
+				</body>
+			</html>
+		`))
 	}
 
 	http.HandleFunc("/", handler)
