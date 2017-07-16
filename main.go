@@ -15,7 +15,6 @@ func main() {
 				</head>
 				<body>
 					<h1>Hello, World!</h1>
-					<h2>How are You?</h2>
 				</body>
 			</html>
 		`))
