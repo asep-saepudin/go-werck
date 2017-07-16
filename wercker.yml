@@ -65,7 +65,7 @@ deploy:
         cmd: /pipeline/source/go-werck
         port: "8080"
         tag: latest
-        repository: asep-saepudin/go-werck
+        repository: asep/go-werck
         registry: https://registry.hub.docker.com
 
     - cng/cf-deploy:
