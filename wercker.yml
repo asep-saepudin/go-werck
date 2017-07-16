@@ -65,4 +65,4 @@ deploy:
         cmd: /pipeline/output/go-werck
         ports: "8080"
         tag: latest
-        repository: asep/go-werck
+        repository: asepsaepudin/go-werck
