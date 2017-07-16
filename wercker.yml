@@ -60,10 +60,9 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-        username: $QUAY_USERNAME
-        password: $QUAY_PASSWORD
+        username: $DOCKER_USERNAME
+        password: $DOCKER_PASSWORD
         cmd: /pipeline/output/go-werck
         ports: "8080"
         tag: latest
-        repository: quay.io/asep/go-werck
-        registry: https://quay.io
+        repository: asep/go-werck
