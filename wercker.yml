@@ -62,7 +62,7 @@ deploy:
     - internal/docker-scratch-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: ./go-werck
+        cmd: /pipeline/output/go-werck
         ports: "8080"
         tag: latest
         repository: asep/go-werck
