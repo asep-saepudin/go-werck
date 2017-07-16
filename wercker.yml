@@ -63,6 +63,6 @@ deploy:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
         cmd: /pipeline/source/go-werck
-        port: "8080"
+        ports: "8080"
         tag: latest
         repository: asep/go-werck
