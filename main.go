@@ -11,10 +11,11 @@ func main() {
 		w.Write([]byte(`
 			<html>
 				<head>
-					<title>Welcome!</title>
+					<title>Welcome</title>
 				</head>
 				<body>
 					<h1>Hello, World!</h1>
+					<h2>How are You?</h2>
 				</body>
 			</html>
 		`))
